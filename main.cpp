@@ -248,7 +248,7 @@ long long parseDateTime(const std::string &dateTimeString) {
 
 
 int main(int argc, char *argv[]) {
-    std::string address = "demo.dxfeed.com:7400";
+    std::string address = "demo.dxfeed.com:7300";
 
     if (argc > 1) {
         address = argv[1];
